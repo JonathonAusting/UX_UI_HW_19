@@ -47,6 +47,7 @@ li {
     text-align: center;
     background-color: white;
     padding: 30px;
+    border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -57,7 +58,7 @@ li {
     background-color: #C3ECFF;
     border: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     width: 125px;
     transition: all 0.5s;
     cursor: pointer;
@@ -70,7 +71,7 @@ li {
     transition: 0.5s;
 }
 .button span:after {
-    content: url(../images/Icon\ feather-download.png);
+    content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
@@ -118,21 +119,21 @@ li {
     grid-area: project1;
     background-color: #FFD688;
     border-radius: 25px;
-    padding-top: 10px;
+    padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project2 {
     grid-area: project2;
     background-color: white;
     border-radius: 25px;
-    padding-top: 10px;
+    padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project3 {
     grid-area: project3;
     background-color: #FFB9F4;
     border-radius: 25px;
-    padding-top: 10px;
+    padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .pro-button {
