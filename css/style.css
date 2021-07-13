@@ -4,10 +4,11 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-image: url(https://live.staticflickr.com/7171/6587698657_18a7326eb7_b.jpg);
+    /* background-image: url(https://live.staticflickr.com/7171/6587698657_18a7326eb7_b.jpg); */
+    background: linear-gradient(to bottom right, #010203, #080048);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 nav {
     position: fixed;
@@ -19,7 +20,8 @@ nav {
     border-radius: 0.625rem;
     width: 45%;
     height: 50px;
-    background: rgba(0, 0, 0, .8)
+    /* background: rgba(0, 0, 0, .8); */
+    z-index: 1000;
 }
 ul {
     padding: 0px;
@@ -94,14 +96,42 @@ li {
     padding: 25px;
     margin-top: 75px;
 }
+#scribble {
+    position: relative;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
 .content {
-    width: 500px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 50%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
-    background-color: white;
+    /* background-color: rgba(0, 0, 0, .8); */
+    color: #fff;
     padding: 30px;
     border-radius: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content h2, h1, p {
+    text-align: left;
+}
+.content h2, h1 {
+    font-size: 34px;
+}
+.content h2 {
+    font-weight: lighter;
+}
+#me {
+    position: absolute;
+    top: -100px;
+    right: -30px;
+    width: 60%;
+    height: auto;
 }
 
 /* Button */
@@ -142,8 +172,9 @@ li {
 /* My Skills */
 .mySkills {
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     margin-bottom: 0px;
+    color: #fff;
 }
 .mySkills h1 {
     padding: 30px;
@@ -156,15 +187,19 @@ li {
     width: 33%;
     padding: 20px;
 }
+.header {
+    text-align: center;
+}
 
 /* My Work */
 .myWork {
     text-align: center;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 .myWork h1 {
     padding: 30px;
     margin-top: 0px;
+    color: #fff;
 }
 .workGrid {
     display: grid;
