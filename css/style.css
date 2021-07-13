@@ -1,11 +1,63 @@
 /* Header */
 body {
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://live.staticflickr.com/7171/6587698657_18a7326eb7_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav {
+    position: fixed;
+    top: 5%;
+    left: 75%;
+    display: flex;
+    padding: none;
+    transform: translate(-50%, -50%);
+    border-radius: 0.625rem;
+    width: 45%;
+    height: 50px;
+    background: rgba(0, 0, 0, .8)
+}
+ul {
+    padding: 0px;
     margin: auto;
 }
-header {
+li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    justify-content: space-between;
+    transition: all ease-in-out .5s;
+}
+a {
+    text-decoration: none;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+}
+ul:hover li {
+    opacity: 0.2;
+    filter: blur(0.0625rem);
+}
+ul li:hover {
+    opacity: 1;
+    filter: blur(0rem);
+
+}
+/* header {
     background-color: #010203;
     height: 80px;
+}
+.navigation {
+    overflow: hidden;
+    background-color: #010203;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 .inline-block {
     display: inline-block;
@@ -34,13 +86,13 @@ li {
     display: inline-block;
     color: white;
     padding-right: 10px;
-}
+} */
 
 /* Hero Image */
 .heroImg {
     height: 600px;
     padding: 25px;
-    background-color: #C3ECFF;
+    margin-top: 75px;
 }
 .content {
     width: 500px;
@@ -90,7 +142,11 @@ li {
 /* My Skills */
 .mySkills {
     text-align: center;
-    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+.mySkills h1 {
+    padding: 30px;
 }
 .flexContainer {
     display: flex;
@@ -104,11 +160,11 @@ li {
 /* My Work */
 .myWork {
     text-align: center;
-    margin-top: 50px;
     background-color: lightgray;
 }
 .myWork h1 {
     padding: 30px;
+    margin-top: 0px;
 }
 .workGrid {
     display: grid;
