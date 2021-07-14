@@ -12,20 +12,7 @@
         <title>Homework 17</title>
     </head>
     <body>
-        <!-- <header class="navigation">
-            <div class="inline-block logo">
-                <img class="logo2" src="images/logo.png">
-            </div>
-            <nav class="inline-block">
-                <ul class="nav-list">
-                    <li>about</li>
-                    <li>skills</li>
-                    <li>work</li>
-                    <li>contact</li>
-                </ul>
-            </nav>
-        </header> -->
-        <nav class="header">
+        <nav>
             <ul>
                 <li><a href="#">about</a></li>
                 <li><a href="#">skills</a></li>
@@ -34,21 +21,19 @@
             </ul>
         </nav>
         <section class="heroImg">
-            <div id="scribble">
-                <img class="responsive" src="images/Scribble.png" alt="scribble">
+            <div>
                 <div class="content">
-                    <h2>Hello.</h2>
-                    <h1>Jonathon Austing.</h1>
-                    <h2>UX / UI Designer.</h2>
+                    <h1 id="first">Jonathon</h1>
+                    <h1 id="last">Austing.</h1>
+                </div>
+                <div class="content2">
+                    <h2>Here's a little bit about me.<br>UX/UI Designer</h2>
                     <p>Hey! I’m Jonathon Austing, a UX/UI Designer with a background in Health Science. I know what you are thinking… these don’t really go together. This is what makes me me. With my background in Health Science, I have a different perspective and mindset when it comes to problem solving. Allowing more brainstorming sessions to happen and more outcomes/solutions. I am incorporating my UX/UI knowledge with my Health Science background to help individuals in need.</p>
                     <button class="button" style="vertical-align: middle"><span>Resume </span></button>
                 </div>
-                <div>
-                    <img id="me" src="images/Me2.png" alt="Image of me">
-                </div>
             </div>
         </section>
-        <section class="mySkills">
+        <section class="mySkills fade">
             <h1 class="header">My UX Skills</h1>
             <div class="flexContainer">
                 <div>
@@ -69,7 +54,7 @@
             </div>
         </section>
         <section class="myWork">
-            <h1 class="header">My Work</h1>
+            <h1 class="header fade">My Work</h1>
             <div class="workGrid">
                 <div class="project1">
                     <img src="images/PupNav-logo.png" alt="PupNav Logo">
@@ -106,6 +91,8 @@
                 <li>contact</li>
             </ul>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
     </body>
 
 </html>
