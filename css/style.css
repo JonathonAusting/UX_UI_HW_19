@@ -161,11 +161,10 @@ ul li:hover {
 .workGrid {
     display: grid;
     grid-template-columns: 1fr 1fr  20px 1fr 1fr 20px 1fr 1fr;
-    grid-template-rows: 80px 1fr 80px;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas:
-        "project1 project1 . . . . project3 project3"
         "project1 project1 . project2 project2 . project3 project3"
-        ". . . project2 project2 . . ."
+        "project1 project1 . project2 project2 . project3 project3"
         ;
     padding: 10px;
 }
@@ -190,6 +189,23 @@ ul li:hover {
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.project1, .project2, .project3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+}
+.proInfo {
+    height: 50%;
+}
+.proImage1 {
+    width: 50%;
+    margin: auto;
+}
+.proImage2 {
+    width: 75%;
+    margin: auto;
+}
 .pro-button {
     display: inline-block;
     border-radius: 4px;
@@ -200,7 +216,8 @@ ul li:hover {
     width: 125px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .pro-button span {
     cursor: pointer;
@@ -230,7 +247,7 @@ ul li:hover {
 
 /* Footer */
 footer {
-    background-color: #010203;
+    background-color: #172736;
 }
 .footer li {
     display: inline-block;
