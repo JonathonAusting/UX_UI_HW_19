@@ -90,7 +90,8 @@ ul li:hover {
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #C3ECFF;
+    background-color: #172736;
+    color: #fff;
     border: none;
     text-align: center;
     font-size: 16px;
@@ -170,21 +171,21 @@ ul li:hover {
 }
 .project1 {
     grid-area: project1;
-    background-color: lightgray;
+    background-color: #C3ECFF;
     border-radius: 4px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project2 {
     grid-area: project2;
-    background-color: lightgray;
+    background-color: #C3ECFF;
     border-radius: 4px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project3 {
     grid-area: project3;
-    background-color: lightgray;
+    background-color: #C3ECFF;
     border-radius: 4px;
     padding: 25px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -209,7 +210,7 @@ ul li:hover {
 .pro-button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #C3ECFF;
+    background-color: #172736;
     border: none;
     text-align: center;
     font-size: 16px;
@@ -242,6 +243,9 @@ ul li:hover {
 }
 .myWork h3 {
     margin-bottom: 0px;
+    color: #fff;
+}
+.vm-btn {
     color: #fff;
 }
 
